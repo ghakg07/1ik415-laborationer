@@ -1,0 +1,4 @@
+{"ts":1378736809105,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1378737142687,"patch":[[{"diffs":[[1,"<!doctype html>\n<html lang=\"sv\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <title></title>\n    </head>\n    \n    <body>\n        \n    </body>\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":157}]],"length":157,"saved":false}
+{"ts":1378737871579,"patch":[[{"diffs":[[0," <title>"],[1,"Test"],[0,"</title>"]],"start1":84,"start2":84,"length1":16,"length2":20},{"diffs":[[0,"</head>\n"],[-1,"    \n"],[0,"    <bod"]],"start1":109,"start2":109,"length1":21,"length2":16}]],"length":156,"saved":false}
+{"ts":1378737894988,"patch":[[{"diffs":[[0,"  <body>"],[1," Awesome"],[0,"\n       "]],"start1":119,"start2":119,"length1":16,"length2":24}]],"length":164,"saved":false}
