@@ -12,5 +12,48 @@
             <li><a href="./laborationer.html">Laborationer</a></li>
             <li><a href="./kontakt.html">Kontakt</a></li>
         </ul>
+        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"
+        method="POST">
+        
+            <fieldset>
+                <legend>Fråga</legend>
+                    <label for="Arendetyp">Ärendetyp
+                        <select id="Arendetyp" name="typ">
+                            <option value="fråga" selected>Fråga</option>
+                            <option value="svar">Svar</option>
+                        </select>
+                    </label>
+                    
+                    <br />
+                    
+                    <label for="Rubrik">Rubrik:
+                        <input type="Text" id="Rubrik" name="Rubrik" placeholder="Rubrik"/>
+                    </label>
+                    
+                    <br />
+                    
+                    <label for="Fråga">Fråga:
+                        <textarea id="Fråga" name="Innehåll" rows="2" cols="17">Testning av fomulär.</textarea>
+                   </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Information om dig</legend>
+                    <label for="KontaktEmail">Kontakta mig via email
+                        <input type="checkbox" id="KontaktEmail" name="Kontakt[]" value="email" />
+                    </label>
+                    
+                    <br />
+                    
+                    <label for="KontaktTele">Kontakta mig via telefon
+                        <input type="checkbox" id="KontaktTele" name="Kontakt[]" value="Tel" />
+                    </label>
+            </fieldset>
+            
+            <button type="submit">Skicka frågan</button>
+            
+        </form>
+        
     </body>
 </html>
