@@ -32,3 +32,4 @@
 {"ts":1379152572639,"patch":[[{"diffs":[[0," </ul>\n        \n"],[1,"        <h4>Fomulär</h4>\n        \n"],[0,"        <form ac"]],"start1":468,"start2":468,"length1":32,"length2":66}]],"length":2227,"saved":false}
 {"ts":1379152586290,"patch":[[{"diffs":[[0,"  <h4>Fo"],[1,"r"],[0,"mulär</h"]],"start1":490,"start2":490,"length1":16,"length2":17}]],"length":2228,"saved":false}
 {"ts":1379152591865,"patch":[[{"diffs":[[0,"Formulär"],[1,":"],[0,"</h4>\n  "]],"start1":496,"start2":496,"length1":16,"length2":17}]],"length":2229,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1379417281775,"patch":[[{"diffs":[[0,"tle>"],[-1,"Bloggis"],[1,"Kontakt"],[0,"</ti"]],"start1":88,"start2":88,"length1":15,"length2":15}]],"length":2229,"saved":false}
