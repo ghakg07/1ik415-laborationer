@@ -84,18 +84,20 @@ table {
                     }
 
 .navigationVanster {    float:left;
-                        margin:20px;
+                        position:relative;
+                        margin:120px;
                         margin-top:20px;
-                        width:210px;
-                        height:720px;
+                        width:10px;
+                        height:545px;
                         background-color:#BF8F30;
                         }
                         
 .navigationHoger {  float:right;
-                    margin:20px;
+                    position:relative;
+                    margin:120px;
                     margin-top:20px;
-                    width:210px;
-                    height:720px;
+                    width:10px;
+                    height:545px;
                     background-color:#6C8DD5;
                     }
 
@@ -116,8 +118,41 @@ table {
                 margin-top:10px;
                 }
                 
+.pennan {   display:block;
+            margin-left:-46px;
+            position:absolute;
+            bottom:-190px;
+            width:100px;
+            }
 
+#bunny {   display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width:500px;
+            }
+            
+.nav {  text-align:center;
 
+        width:100%;
+        padding:0;
+        margin:0;
+
+        }
+        
+.anav   {   margin-left:auto;
+        margin-right:auto;
+        color:white;
+        background-color:darkblue;
+        padding:0.2em 0.6em;
+        border-right:1px solid white;
+        }
+    
+.anav:hover {background-color:#ff3300;
+            }
+
+.lista {display:inline;
+
+   }
 
 
 
