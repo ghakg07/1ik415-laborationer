@@ -56,20 +56,16 @@ table {
 .behallare {margin-left:auto;
             margin-right:auto;
             width:1200px;
-            height:960px;
-            border-color:black;
-            border-width:1px;
-            border-style:solid;
+            height:1195px;
+            background-color:white;
             }
 
 .huvud {margin-left:auto;
         margin-right:auto;
-        margin-top:20px;
+        margin-top:-140px;
         width:1160px;
         height:50px;
-        border-color:black;
-        border-width:1px;
-        border-style:solid;
+        background-color:#4573D5;
         }
 
 .innehall { margin-left:auto;
@@ -77,18 +73,14 @@ table {
             margin-top:20px;
             width:690px;
             height:720px;
-            border-color:black;
-            border-width:1px;
-            border-style:solid;
+            background-color:#E9F2FF;
             }
 
 .navigationUppe {   margin-left:auto;
                     margin-right:auto;
                     width:1160px;
                     height:50px;
-                    border-color:black;
-                    border-width:1px;
-                    border-style:solid;
+                    background-color:#06276F;
                     }
 
 .navigationVanster {    float:left;
@@ -96,9 +88,7 @@ table {
                         margin-top:20px;
                         width:210px;
                         height:720px;
-                        border-color:black;
-                        border-width:1px;
-                        border-style:solid;
+                        background-color:#BF8F30;
                         }
                         
 .navigationHoger {  float:right;
@@ -106,9 +96,7 @@ table {
                     margin-top:20px;
                     width:210px;
                     height:720px;
-                    border-color:black;
-                    border-width:1px;
-                    border-style:solid;
+                    background-color:#6C8DD5;
                     }
 
 
@@ -117,13 +105,17 @@ table {
         margin-top:20px;
         width:1160px;
         height:50px;
-        border-color:black;
-        border-width:1px;
-        border-style:solid;
+        background-color:#A66E00;
         }
 
-
-
+.huvudbild {    display:block;
+                margin-left:auto;
+                margin-right:auto;
+                width:600px;
+                height:400px;
+                margin-top:10px;
+                }
+                
 
 
 
