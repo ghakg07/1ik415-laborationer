@@ -246,13 +246,45 @@ table {
             
 .right {    float:right;}
 
+.falt1 {    display:block;
+            margin-left:auto;
+            margin-right:auto;
+            border:1px solid;
+            border-radius:10px;
+            width:300px;
+            background-color:#4573D5;}
 
-h1, h2, h3, h4 {    font-family:Verdana;
-                    font-weight:600;
-                    line-height:30px;
-                    padding-bottom:0;
-                    padding-top:10px;
-                    margin-left:7px;}
+.falt2 {    display:block;
+            margin-left:auto;
+            margin-right:auto;
+            border:1px solid;
+            border-radius:10px;
+            width:300px;
+            margin-top:30px;
+            margin-bottom:10px;
+            background-color:#A66E00;}
+            
+.falt1 legend, .falt2 legend {  font-family:Verdana;
+                                font-weight:600;
+                                padding-bottom:20px;
+                                text-align:center;}
+                
+label {     text-align:center;
+            font-family:Verdana;
+            font-size:14px;
+            display:block;
+            margin-bottom:15px;
+            margin-left:20px;}
+
+.labelfraga {   margin-bottom:-5px;}
+
+h1, h2, h3, h4 { font-family:Verdana;
+                font-weight:600;
+                line-height:30px;
+                padding-bottom:0;
+                padding-top:10px;
+                margin-left:7px;}
+                
                     
 a { font-family:Verdana; 
 }
@@ -274,8 +306,7 @@ p    {  padding-top:10px;
 p:first-letter {font-weight:600;
                 font-size:15px;}
     
-.innehall li {  margin-left:7px;
-}
+.innehall li {  margin-left:7px;}
 
 ol {list-style-type:upper-roman;
     margin-left:40px;
