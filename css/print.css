@@ -1,0 +1,4 @@
+body {font-family:georgia;}
+/*{visibility:hidden;}*/
+#Bild, .huvudbild, .right, .fot, .nav, .pennan, #bunny, .upplank, .sidlank {display:none;}
+a:after {content: " (" attr(href) ") ";}
