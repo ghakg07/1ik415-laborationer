@@ -168,6 +168,7 @@ table {
             text-decoration:none;
             color:white;
             background-color:darkblue;
+            background-image:url("pics/sprite.png");
             padding:10px 10px;
             border-right:1px solid white;
             }
@@ -324,3 +325,32 @@ dd {margin-left:20px;
     font-style:italic;}
 
 table, th, td {border: 1px solid black; }
+
+/*Sprites*/
+
+
+#start              {background-position:2px -41px;
+                    background-repeat:no-repeat;}
+                    
+#start:hover        {background-position:2px 7px;
+                    background-repeat:no-repeat;}
+                    
+#pres               {background-position:2px -233px;
+                    background-repeat:no-repeat;}
+                    
+#pres:hover         {background-position:2px -185px;
+                    background-repeat:no-repeat;}
+
+#lab                {background-position:2px -137px;
+                    background-repeat:no-repeat;}
+                    
+#lab:hover          {background-position:2px -89px;
+                    background-repeat:no-repeat;}
+
+#kontakt            {background-position:2px -329px;
+                    background-repeat:no-repeat;}
+                    
+#kontakt:hover      {background-position:2px -281px;
+                    background-repeat:no-repeat;}
+
+
