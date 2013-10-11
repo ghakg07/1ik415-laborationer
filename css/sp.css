@@ -66,6 +66,7 @@ table {
             max-height:100%;
             overflow:auto;
             overflow-y:hidden;
+            overflow-x:hiddenSs;
             background-color:white;
             border:1px solid;
          
@@ -106,7 +107,6 @@ table {
                         margin-left:auto;
                         margin-right:auto;
                         margin-top:10px;
-                        height:100px;
                         width:10px;
                         background-color:#BF8F30;
                         z-index:200;
@@ -154,7 +154,7 @@ table {
 #bunny {    display:block;
             margin-left:auto;
             margin-right:auto;
-            width:500px;
+            width:100%;
             }
             
 .nav {  text-align:center;
@@ -259,7 +259,7 @@ table {
             margin-right:auto;
             border:1px solid;
             border-radius:10px;
-            width:300px;
+            width:200px;
             background-color:#4573D5;}
 
 .falt2 {    display:block;
@@ -267,7 +267,7 @@ table {
             margin-right:auto;
             border:1px solid;
             border-radius:10px;
-            width:300px;
+            width:200px;
             margin-top:30px;
             margin-bottom:10px;
             background-color:#A66E00;}
@@ -282,7 +282,7 @@ label {     text-align:center;
             font-size:14px;
             display:block;
             margin-bottom:15px;
-            margin-left:20px;}
+            margin-left:0;}
 
 .labelfraga {   margin-bottom:-5px;}
 
@@ -326,9 +326,11 @@ ol li {padding-top:5px;}
             margin-left:20px;}
     
 dt {margin-left:10px;
-    padding-top:5px;}
+    padding-top:5px;
+    }
 
 dd {margin-left:20px;
+    font-size:9px;
     font-style:italic;}
 
 table, th, td {border: 1px solid black; }

@@ -51,13 +51,11 @@ table {
 
 /* Början på min redigering. */
 
-.kropp {    
-            background-image:url("pics/tegelny.jpg");
+.kropp {    background-image:url("pics/tegelny.jpg");
             background-repeat:repeat-y;
             display:block;
             margin-left:auto;
             margin-right:auto;
-           
             }
 
 .behallare {margin-left:auto;
