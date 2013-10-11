@@ -243,6 +243,10 @@ table {
 
 .upplank li a:active { background-color:#FF4B00;
                     }
+.mobanp {  display:block;
+            width:200px;
+            margin-left:auto;
+            margin-right:auto;}
 
 #Bild { width:200px;
         display:block;
