@@ -338,6 +338,12 @@ dd {margin-left:20px;
 
 table, th, td {border: 1px solid black; }
 
+strong { font-weight:600;}
+
+.row {border-top: 1px dotted blue;}
+
+.textbox { width:200px; }
+
 /*Sprites*/
 
 
