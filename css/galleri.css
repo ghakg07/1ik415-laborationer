@@ -1,0 +1,77 @@
+
+.galleri a {    background: white;
+            	display: inline;
+            	float: left;
+            	margin: 10px 15px 30px;
+            	padding: 10px 10px 25px;
+            	text-align: center;
+            	text-decoration: none;
+            	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+            	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+            	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+            	-webkit-transition: all .15s linear;
+            	-moz-transition: all .15s linear;
+            	transition: all .15s linear;   
+            	z-index:0;
+                position:relative;
+                }
+    
+@font-face { font-family:'Achafont';
+            src: url('../gallery/Font/Achafsex.ttf')
+            }
+            
+.galleri a:after {  color: #333;
+	                font-size: 20px;
+	                font-family:Achafont;
+	                content: attr(title);
+                	position: relative;
+	                top:15px;
+                    }
+
+.galleri img {  display: block; 
+                    	width: inherit; 
+                        }
+                        
+.galleri a:nth-child(2n)   {   -webkit-transform: rotate(10deg);  
+        	                    -moz-transform: rotate(10deg); 
+        	                    transform: rotate(10deg); 
+                                }
+                        
+.galleri a:nth-child(3n) {  -webkit-transform: rotate(-15deg);  
+	                        -moz-transform: rotate(-15deg); 
+	                        transform: rotate(-15deg); 
+                            }
+                            
+.galleri a:nth-child(4n)    {   -webkit-transform: rotate(15deg);  
+	                            -moz-transform: rotate(15deg); 
+                            	transform: rotate(15deg); 
+                                }
+                                
+.galleri a:nth-child(5n)    {   -webkit-transform: rotate(-20deg);  
+	                            -moz-transform: rotate(-20deg); 
+	                            transform: rotate(-20deg); 
+                                }
+                                
+.galleri a:hover    {   -webkit-transform: rotate(0deg); 
+                    	-moz-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                    	-webkit-transform: scale(1.2); 
+                    	-moz-transform: scale(1.2);
+                        transform: scale(1.2);
+                    	z-index:10;
+                    	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+                    	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+                        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+                        }
+        
+.galleri a:focus      {   -webkit-transform: rotate(0deg); 
+                    	-moz-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                    	-webkit-transform: scale(1.2); 
+                    	-moz-transform: scale(1.2);
+                        transform: scale(1.2);
+                    	z-index:10;
+                    	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+                    	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+                        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+                        }
